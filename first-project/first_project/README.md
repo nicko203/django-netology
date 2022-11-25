@@ -87,11 +87,14 @@ def workdir_view(request):
 </html>
 ```
 
-###Скриншоты
+### Скриншоты
 
 Текущее время:  
+
 
 ![](./images/current_time.png)
 
 Содержимое директории:  
+
+
 ![](./images/list_dir.png)
