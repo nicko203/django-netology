@@ -9,9 +9,7 @@ STATIONS_LIST = []
 
 with open(settings.BUS_STATION_CSV, newline='') as csvfile:
     listing = csv.DictReader(csvfile)
-    nCount = 1
     for row in listing:
-        nCount = nCount+1
         STATIONS_LIST.append((row['Name'], row['Street'], row['District']))
 
 def index(request):
