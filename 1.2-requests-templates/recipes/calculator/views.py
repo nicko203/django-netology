@@ -59,7 +59,6 @@ def omlet_view(request):
     servings = int(request.GET.get("servings",1))
     context = {'recipe':{}}
     for ingredient in DATA['omlet']:
-#        print(ingredient,DATA['omlet'][ingredient]*servings)
         context['recipe'][ingredient] = DATA['omlet'][ingredient]*servings
 
     return render(request, template_name, context)
@@ -69,7 +68,6 @@ def context_fill(recipe, servings):
     context1.clear()
     context1 = {'recipe':{}}
     for ingredient in DATA[recipe]:
-#        print(ingredient,DATA[recipe][ingredient]*servings)
         context1['recipe'][ingredient] = DATA[recipe][ingredient]*servings
     return context1
 
