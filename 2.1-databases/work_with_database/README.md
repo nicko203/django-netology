@@ -132,12 +132,12 @@ netology_import_phones=# select * from phones_phone;
   
 Список товаров:  
 
-!(Список телефонов)[images/list_phones.png]
+![Список телефонов](images/list_phones.png)
 
 
 Товар:  
 
-!(Телефон)[images/item_phone.png]
+![Телефон](images/item_phone.png)
 
 
 ## Реализация
