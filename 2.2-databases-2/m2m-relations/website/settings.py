@@ -22,7 +22,7 @@ SECRET_KEY = 'b0e@^m&tccz11$w59qov$lhn-97!(%wfn-gray-c*x)^a$wx=2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','localhost','10.36.9.70']
 
 
 SITE_ID = 1
@@ -79,6 +79,8 @@ DATABASES = {
         'NAME': 'netology_m2m_relations',
         'HOST': '127.0.0.1',
         'PORT': '5432',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
     }
 }
 
