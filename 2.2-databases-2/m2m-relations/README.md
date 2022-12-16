@@ -42,7 +42,7 @@ python3 manage.py migrate
 
 
 Корректирую обработчик [views.py](articles/views.py). 
-
-
-
+  
+Итоговая страница:  
+  
 ![images/list_articles.png](images/list_articles.png)  
