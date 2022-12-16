@@ -20,7 +20,7 @@ python3 manage.py migrate
 python3 manage.py loaddata articles.json
 ```
 
-Изменяю модель даннных в файле [](articles/models.py).
+Изменяю модель даннных в файле [models.py](articles/models.py).
 
 Создаю пользователя, провожу новую миграцию:
 
@@ -41,7 +41,7 @@ python3 manage.py migrate
 ![images/article_sections.png](images/article_sections.png)  
 
 
-Корректирую обработчик [](articles/views.py). 
+Корректирую обработчик [views.py](articles/views.py). 
 
 
 
