@@ -56,17 +56,17 @@ python3 manage.py runserver 0.0.0.0:8000
 ```
 
 
-Вношу изменения в файлы [serializers.py](/logistic/serializers.py) и [views.py](/logistic/views.py)  
+Вношу изменения в файлы [serializers.py](./logistic/serializers.py) и [views.py](./logistic/views.py)  
 
 Результат работы:  
 
 Список товаров:  
 
-![](/images/product_list.png)
+![](./images/product_list.png)
   
 Список складов с товарами:  
 
-![](/images/stock_list.png)
+![](./images/stock_list.png)
 
 
 
